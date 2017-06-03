@@ -1,0 +1,12 @@
+gfxoffsetx=-32
+gfxoffsety=0
+gfxwidth=32
+gfxheight=32
+width=32
+height=32
+speed=1
+noblockcollision=0
+frames=1
+framestyle=0
+image=""
+script=""

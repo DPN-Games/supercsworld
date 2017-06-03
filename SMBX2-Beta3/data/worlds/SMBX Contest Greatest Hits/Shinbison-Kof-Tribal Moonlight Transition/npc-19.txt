@@ -1,0 +1,11 @@
+height=12
+width=112
+gfxheight=18
+gfxwidth=112
+grabtop=0
+playerblock=0
+playerblocktop=0
+npcblock=0
+npcblocktop=0
+frames=2
+framestyle=1

@@ -1,0 +1,8 @@
+width=42
+gfxwidth=42
+height=42
+gfxheight=42
+frames=16
+framespeed=2
+npcblock=0
+npcblocktop=0

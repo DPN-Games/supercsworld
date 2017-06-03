@@ -1,0 +1,5 @@
+gfxwidth=64
+gfxheight=64
+height=48
+framestyle=1
+name="Sturg"

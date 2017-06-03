@@ -1,0 +1,5 @@
+frames=2
+framestyle=1
+framespeed=2
+width=30
+height=16

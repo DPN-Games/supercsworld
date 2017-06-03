@@ -1,0 +1,3 @@
+gfxwidth=130
+gfxheight=66
+frames=1

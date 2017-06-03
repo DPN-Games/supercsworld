@@ -1,0 +1,12 @@
+height=64
+width=64
+gfxheight=64
+gfxwidth=64
+noyoshi=0
+score=8
+npcblock=1
+npcblocktop=1
+playerblock=1
+playerblocktop=1
+grabtop=0
+grabside=0

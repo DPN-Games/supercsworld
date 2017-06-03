@@ -1,0 +1,12 @@
+width=64
+height=32
+gfxwidth=64
+gfxheight=32
+speed=3
+framespeed=4
+framestyle=1
+frames=2
+nofireball=1
+nogravity=1
+noblockcollision=1
+noyoshi=1

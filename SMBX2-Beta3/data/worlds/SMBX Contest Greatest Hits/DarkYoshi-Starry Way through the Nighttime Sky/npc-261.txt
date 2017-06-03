@@ -1,0 +1,10 @@
+height=154
+width=116
+gfxheight=164
+gfxwidth=126
+speed=2
+jumphurt=1
+nofireball=1
+noiceball=1
+noyoshi=1
+

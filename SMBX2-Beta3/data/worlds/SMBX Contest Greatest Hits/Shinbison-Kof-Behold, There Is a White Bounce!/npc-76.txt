@@ -1,0 +1,15 @@
+jumphurt=0
+npcblock=0
+noblockcollision=1
+nohurt=1
+noyoshi=1
+noiceball=1
+nofireball=1
+nogravity=1
+score=0
+frames=2
+framestyle=1
+width=32
+height=32
+gfxheight=32
+gfxwidth=32

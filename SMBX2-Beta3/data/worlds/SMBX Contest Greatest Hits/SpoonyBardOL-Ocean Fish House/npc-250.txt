@@ -1,0 +1,7 @@
+width=800
+height=12
+gfxwidth=800
+gfxheight=600
+frames=1
+nogravity=1
+noblockcollision=1

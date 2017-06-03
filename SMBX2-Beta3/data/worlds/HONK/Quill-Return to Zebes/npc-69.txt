@@ -1,0 +1,13 @@
+gfxheight=126
+height=126
+playerblock=1
+playerblocktop=1
+npcblocktop=0
+noblockcollision=1
+noyoshi=1
+nofireball=1
+nogravity=1
+noiceball=1
+frames=1
+nohammer=1
+noshell=1

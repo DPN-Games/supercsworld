@@ -1,0 +1,6 @@
+gfxwidth=32
+gfxheight=32
+playerblocktop=0
+npcblocktop=0
+frames=2
+framestyle=0

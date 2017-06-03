@@ -1,0 +1,9 @@
+width=430
+height=64
+gfxwidth=430
+gfxheight=112
+foreground=1
+frames=1
+npcblock=0
+npcblocktop=0
+noblockcollision=1

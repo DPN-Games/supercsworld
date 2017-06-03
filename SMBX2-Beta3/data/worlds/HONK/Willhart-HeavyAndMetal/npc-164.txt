@@ -1,0 +1,4 @@
+frames=2
+framestyle=0
+playerblocktop=0
+jumphurt=1

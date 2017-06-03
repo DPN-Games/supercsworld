@@ -1,0 +1,9 @@
+width=56
+height=54
+gfxwidth=60
+gfxheight=64
+nofireball=0
+playerblocktop=0
+npcblocktop=0
+score=5
+noyoshi=1

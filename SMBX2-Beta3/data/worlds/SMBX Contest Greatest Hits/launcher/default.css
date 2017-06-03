@@ -1,0 +1,85 @@
+body {
+	background-color: #FFFFFFFF;
+	margin: 0px;
+}
+canvas {
+	margin-top: 0px;
+	width: 100%;
+	background: url('background.png');
+	background-size: cover;
+    	background-repeat: no-repeat;
+}
+.bodycontent {
+	margin: 10px;
+	padding: 2em;
+	border-radius: 10px;
+	border: 2px solid black;
+	text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
+	-webkit-font-smoothing: antialiased;
+	background-color: rgba(175,120,120,0.4);
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 1.05em;
+	font-weight: 400;
+	text-align: center;
+	height: 50%;
+}
+.its3amgoddammit {
+	margin: 10px;
+	padding: 2em;
+	border-radius: 30px;
+	border: 2px solid black;
+	text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
+	color: #222;
+	-webkit-font-smoothing: antialiased;
+	background-color: #f2f2f233;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 1.05em;
+	font-weight: 400;
+	text-align: left;
+	height: 50%;
+}
+ul {
+	list-style-type: none;
+}
+li strong {
+	width: 250px;
+	display: inline-block;
+}
+#buttonContainer {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+.buttons {
+	color: #fff;
+	background-color: #6496c8;
+	border: 1px solid black;
+	border-radius: 5px;
+	box-shadow: 0 3px #6496c8;
+	padding: 20px;
+	margin: 0px 10px 0px 10px;
+	font-size: 1.25em;
+}
+.buttons:hover {
+	background-color: #417cb8;
+	box-shadow: 0 0px #417cb8;
+	transform: translateY(5px);
+}
+
+.marquee {
+	margin: 0 auto;
+	overflow: hidden;
+	white-space: nowrap;
+	box-sizing: border-box;
+	-webkit-animation: marquee 50s linear infinite;
+	height: 380px;
+	display: block;
+	width: 100000%;
+	overflow: hidden;
+	background-repeat: repeat-x;
+}
+
+@-webkit-keyframes marquee {
+	0%   { -webkit-transform: translate(0, 0); }
+	100% { -webkit-transform: translate(-8000px, 0); }
+} 

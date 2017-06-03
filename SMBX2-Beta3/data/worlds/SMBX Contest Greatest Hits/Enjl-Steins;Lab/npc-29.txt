@@ -1,0 +1,6 @@
+height=32
+gfxheigh=32
+framestyle=0
+frames=3
+nogravity=1
+speed=0

@@ -1,0 +1,7 @@
+grabtop=0
+grabside=0
+nogravity=1
+gfxheight=810
+gfxwidth=588
+height=810
+width=588

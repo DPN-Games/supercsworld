@@ -1,0 +1,33 @@
+To make it work, you need to place this line in your lunaworld file.
+ 
+
+_CheatsMenu = loadAPI("CheatsMenu");
+
+
+and place CheatsMenu.lua and CheatsMenu folder in the LuaScriptsLib folder !!
+
+
+--------------------------------------------------------------------------
+
+
+
+For Load the menu press "n" on the keyboard and button jump to
+accept the selection
+
+
+if you want to see get input stuff in a nice graphical menu press on
+keyboard the cheat :
+ 
+"textme"
+
+
+To see debug stuff as a same thing from above :
+
+"debugme1" and "debugme1" again if you want to close
+
+"debugme2" for moar debug stuff   ---  all is in work in progress :D
+
+
+
+Cheats menu is made by Lotus006 (me) 
+enjoy !!

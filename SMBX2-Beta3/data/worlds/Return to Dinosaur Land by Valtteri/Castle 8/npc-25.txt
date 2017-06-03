@@ -1,0 +1,11 @@
+width=48
+height=48
+gfxwidth=48
+gfxheight=60
+gfxoffsety=12
+noiceball=1
+grabtop=0
+playerblocktop=0
+npcblocktop=0
+jumphurt=1
+noyoshi=1

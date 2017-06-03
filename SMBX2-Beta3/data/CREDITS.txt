@@ -1,0 +1,264 @@
+LUNALUA:
+Kevsoft
+Horikawa Otane
+Rednaxela
+Hoeloe
+Wohlstand
+
+PGE:
+Wohlstand
+Kevsoft
+
+SMBX 2.0:
+
+CHARACTERS:
+
+BOWSER
+Code:
+Horikawa Otane
+Hoeloe
+
+Graphics:
+Cyberguy
+SilverDeoxys563
+Willhart
+Hoeloe
+
+Costumes:
+SMB3 Recolour - <<ORIGINAL CREATOR>> & PixelPest
+
+JUNI
+Code:
+Willhart
+Wasabi
+
+Graphics:
+
+Costumes:
+Alfador - <<ORIGINAL CREATOR>> (costume) & PixelPest (blocks)
+
+KLONOA
+Code:
+Hoeloe
+
+Graphics:
+Namco Limited
+
+Costumes:
+Yoshi: Iplementation by Willhart. OW-Sprites by sawnikheoghehg
+
+
+MEGAMAN
+Code:
+Horikawa Otane
+Enjl
+
+Graphics:
+
+Costumes:
+Enjl
+
+NINJA BOMBERMAN
+Code:
+Horikawa Otane
+
+Graphics:
+
+Costumes:
+Roboman - PixelPest
+
+PRINCESS RINKA
+Code:
+Horikawa Otane
+
+Graphics:
+
+Costumes:
+
+
+ROSALINA
+Code:
+Horikawa Otane
+Hoeloe
+
+Graphics:
+Lord Kibble
+EvilMariobot
+Willhart
+Hoeloe
+
+Costumes:
+Utsuho - <<ORIGINAL CREATOR>> (costume) & PixelPest (blocks)
+
+SAMUS
+Code:
+Horikawa Otane
+Rednaxela
+Enjl
+
+Graphics:
+Nintendo Co., Ltd
+
+Costumes:
+
+
+SNAKE
+Code:
+Hoeloe
+Rednaxela
+
+Graphics:
+Konami Holdings Corporation
+
+Costumes:
+
+
+ULTIMATE RINKA
+Code:
+Snorunt Pyro
+Enjl
+
+Graphics:
+Nintendo Co., Ltd
+Snorunt Pyro
+Enjl
+
+Costumes:
+
+
+UNCLE BROADSWORD
+Character:
+raocow
+
+Code:
+
+Graphics:
+
+Costumes:
+
+
+WARIO
+Code:
+Horikawa Otane
+ArabSalmon
+Ohmato
+
+Graphics:
+
+Costumes:
+
+
+ZELDA
+Code:
+Horikawa Otane
+Hoeloe
+
+Graphics:
+Hoeloe
+
+Costumes: 
+Prof. E. Gadd. - Ripped by A.J.Nitro.
+
+MARIO
+Costumes:
+Cosmic Mario - Nintendo Co., LTD & PixelPest (costume)
+SMW Mario - Nintendo Co., LTD (costume) & PixelPest (blocks)
+
+LUIGI
+Costumes:
+Cosmic Luigi - Nintendo Co., LTD & PixelPest (costume)
+SMW Luigi - Nintendo Co., LTD (costume) & PixelPest (blocks)
+
+PEACH
+Costumes:
+SuperTux-Tux - <<ORIGINAL CREATOR>> (costume) & PixelPest (blocks)
+
+TOAD
+Costumes:
+SMB2-Green Toad - Nintendo Co., LTD & PixelPest
+SMB2-Yellow Toad - Nintendo Co., LTD & PixelPest
+SMB2-Purple Toad - Nintendo Co., LTD & PixelPest
+SMB3-Green Toad - Nintendo Co., LTD & PixelPest
+SMB3-Yellow Toad - Nintendo Co., LTD & PixelPest
+SMB3-Purple Toad - Nintendo Co., LTD & PixelPest
+
+LINK
+Costumes:
+Willhart - <<ORIGINAL CREATOR>> (costume) & PixelPest (blocks)
+
+
+
+NPCS:
+
+BEETLE
+Code:
+Marina
+
+Graphics:
+Nintendo Co., Ltd
+
+
+BONY BEETLE
+Code:
+
+Graphics:
+
+BOO CIRCLE
+Code:
+
+Graphics:
+
+
+CUSTOM LOTUS
+Code:
+
+Graphics:
+Nintendo Co., Ltd
+
+
+MAVERICK THWOMP
+Code:
+
+Graphics:
+Nintendo Co., Ltd
+
+
+MOAR RINKAS
+Code:
+Marina
+
+Graphics:
+Nintendo Co., Ltd
+Marina
+
+PODOBOO:
+Code:
+
+Graphics:
+Nintendo Co., Ltd
+
+
+RED BEETLE:
+Code:
+Marina
+
+Graphics:
+Nintendo Co., Ltd
+Marina
+
+STARMAN:
+Code:
+Horikawa Otane
+
+Graphics:
+Nintendo Co., Ltd
+
+
+
+OTHER:
+Code:
+
+Graphics:
+RockyTheChao
+Willhart
+Hoeloe

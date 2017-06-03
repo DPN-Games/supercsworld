@@ -1,0 +1,3 @@
+gfxheight=60
+gfxwidth=57
+width=44

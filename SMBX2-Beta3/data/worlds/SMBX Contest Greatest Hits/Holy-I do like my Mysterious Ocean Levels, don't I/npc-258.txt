@@ -1,0 +1,7 @@
+width=480
+height=316
+frames=1
+nohurt=1
+foreground=1
+npcblock=0
+npcblocktop=0

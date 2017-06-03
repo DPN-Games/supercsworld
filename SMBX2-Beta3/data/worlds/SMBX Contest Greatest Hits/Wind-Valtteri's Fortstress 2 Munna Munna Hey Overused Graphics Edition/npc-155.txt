@@ -1,0 +1,10 @@
+width=126
+height=132
+gfxwidth=126
+gfxheight=132
+frames=20
+framestyle=1
+framespeed=6
+nogravity=1
+noblockcollision=1
+foreground=1

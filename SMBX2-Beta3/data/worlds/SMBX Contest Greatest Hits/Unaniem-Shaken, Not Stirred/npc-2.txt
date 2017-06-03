@@ -1,0 +1,8 @@
+width=128
+height=160
+gfxwidth=128
+gfxheight=160
+frames=2
+framestyle=0
+framespeed=10
+foreground=0

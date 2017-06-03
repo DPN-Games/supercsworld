@@ -1,0 +1,229 @@
+Custom Lotus Tutorial. Made by WILLHART.
+
+STILL BETA AND SUBJECT TO CHANGES.
+
+INFO
+-This api makes it easy to create neat bullet patterns, and also customize the volcano lotus on the side.
+- See the forum thread here for more: http://www.supermariobrosx.org/forums/viewtopic.php?f=87&t=13826
+
+SETTING UP
+
+Custom Lotus in a level
+-Open your level folder (where you normally put graphics) and create a file called lunadll.lua
+-Put the following code in there: 
+
+	local customLotus = API.load("NPCs\\customLotus");
+	
+-Copy the files found in graphics\new_npcs\customLotus (it contains files like "customLotusFire1.png" for example) and put them to your level folder.
+-This should make it so that you can use the api.
+
+Custom Lotus in an Episode
+-Open your episode folder (where the .wld file is) and create a file called lunaworld.lua
+-Put the following code in there: 
+
+	local customLotus = API.load("customLotus");
+	
+-Copy the files found in graphics\new_npcs\customLotus (it contains files like "customLotusFire1.png" for example) and put them to your episode folder.
+-This should make it so that you can use the api.
+
+
+HOW TO USE
+
+- Select a SMW volcano lotus (npc 275).
+- Place it to a level and it will act completely normally.
+- You can write specific words to the npc TALK MESSAGE to alter the way it shoots. You can change it from "Item Properties" window on PGE, and in the NPC tab on the SMBX editor.
+- You can Name the lotus with the text {id='Burst'} for example, to make it act like it is set on the "npcdata.json" file. 
+- There is an example json file with a lot of preset configurations, on the resourcess folder.
+
+EXAMPLE IDs
+
+	Here are some IDs for you to try and play around with. Place them to the TALK MESSAGE field of the SMW LAVA LOTUS before placing it somewhere. You can try changing the values on the json file to see what they do.
+	
+	for example {id='Palm Tree'} makes the lotus shoot with wollofing settings.
+	
+		Palm Tree - waves=5 focus=45 focusD=-6
+		
+	There are also many other ones below.	
+		
+		Burst - bulletsD=1 bullets=1 waves=5 focus=25 rate=2
+		Alternating Sun - bullets=6 waves=3 rate=2 spin=20 focus=60 spinD=60 lineW=5 lineN=3
+		Spinning Sun - bullets=8 waves=5 rate=3 spin=20 focus=45 spinD=30 turn=276 range=8-8 tilldeath=80 delay=0	
+		Quick spitter - bullets=4 bulletsD=-1 waves=2 lo1=60 lo2=30 lo3=35 delay=0 rate=2
+		Inverted triangle - bullets=5 waves=5 bulletsD=-1 focus=5 rate=6
+		Aimed Beam - bullets=1 aim=1 speed=3 waves=5 rate=10 delay=2 lo1=40
+		Aimed arrows - bulletsD=1 bullets=1 aim=1 waves=3 rate=6 focus=3 lineW=30 lineN=3
+		Ground cover - bullets=2 focus=180 waves=5 spawnyD=-10 rate=12
+		Six leaf flower - bullets=6 spin=30 waves=5 rate=9 lineN=1 lineND=1 lineW=18 lineWD=-3.4 focus=60 speedD=-0.1
+		Five leaf flower - bullets=1 waves=7 rate=15 focus=4 bulletsA=5 speedD=-0.1 lineN=5 lineW=72
+		Spiral of doom - bullets=2 waves=46 delay=0 focus=180 rate=3 speed=2.5 rateD=0.4 spin=20 spinD=45
+		Rainbow - range=1-7 spriteD=1 bullets=1 bulletsD=1 waves=8 focus=20 focusD=-2 rate=3
+		Spiral of Rainbow - range=1-7 spriteD=1 bullets=2 waves=46 delay=0 focus=180 rate=3 speed=2.5 rateD=0.4 spin=20 spinD=45
+		Alternating colors - spriteLD=1 range=1-2 waves=3 bullets=1 lineN=7 spriteD=1 lineW=20
+	
+	--  Vel-based
+		Crossfire - velX=-0.2 velY=-0.2 bullets=9 clear=-1 (clear=-1 prevents this from disappearing when vel=0)
+		Spinner - velX=-0.2 velY=-0.2 bullets=8 (Behaves differently depending if odd number of bullets, spin has interesting effect too)
+	
+	--  Transformers.
+		Regular Lotus? - bullets=4 velMXD=-0.010 velY=0.11 velMYD=-0.02 turn=276 speed=3.2 delay=0 clear=-1 tilldeath=80 focus=40 range=8-8
+		More pollen - bullets=4 waves=2 bulletsD=-1 velMXD=-0.010 velY=0.11 velMYD=-0.02 turn=276 speed=3.2 delay=0 clear=-1 tilldeath=80 focus=40 range=8-8
+		Two Goombas - bullets=2 velMXD=-0.022 velMYD=-0.022 turn=1 speed=3 delay=0
+	
+	--  fireworks.
+		Rocket - bullets=1 speed=1 velMY=1.04 dEffect=1 tilldeath=55
+		Candle - bullets=1 waves=6 spin=-25 spinD=10 speed=3 velMY=1.01 dEffect=131 tilldeath=30 delay=0 rate=6
+	
+	--	A is the size of the sircle, B effects the distance of the bullets from each other.
+		Round spawner - bullets=1 waves=40 rate=20 spawnxA=40 spawnxC=1 spawnyA=40 spawnyC=-0.5
+		Magic spawner - bullets=1 speed=0 waves=40 rate=20 spawnxA=60 spawnyA=60 spawnxC=1 spawnyC=-0.5 spawnyCD=3 spawnxCD=3 spawnxB=0.4 spawnyB=0.4 delay=20
+		Round Drill spawner - bullets=1 waves=20 rate=20 focus=6 spawnxAD=3 spawnyAD=3 spawnxC=1 spawnyC=-0.5 spawnyCD=0.2 spawnxCD=0.2 speed=2.5 speedD=-0.02
+
+		
+MAKING CUSTOM SETTINGS
+		
+	When editing "npcdata.json" file, you need to be careful to write everything corectly. It will error if you are missing commas for example.
+	See here for a tutorial and example: http://wohlsoft.ru/pgewiki/NpcParse.lua .
+	
+	You can use any of the following settings to alter the behaviour of the lotus of given id.
+	They are ordered by what they do on the list below. You can write them in any order.
+	
+LIST OF CODES
+
+	Here are the basic commands for altering THE WAY THE BULLETS ARE SPAWNED by the lotus. Each of them is placed to the lotus TALK MESSAGE field. See "How to use" part above for more details.
+
+		waves= The number of times the lotus shoots in a row. Very important for some special commands later. Default is 4.
+		bullets= The number of bullets shot on each wave. Default = 4.
+		rate= The number of waves shot per second. Default = 3.
+		speed= The speed of the bullets shot. Default = 2.
+		focus= How close together the bullets in the wave are. The value is in decrees. Default = 45.
+		spin= Rotates the aim by given amount in decrees. Default = 0.
+		
+		delay= Time the bullet waits before moving. Default = 40.
+		spawnx= Spawning X position offset. Default = 0.
+		spawny= Spawning Y position offset. Default = 0.
+		lineN= Spawns given amount of bullets next to each bullet (stands for Line Number). Default = 0.
+		lineW= Distance between the bullets in each line. (stands for Line Width) Default = 10.
+
+	These will alter the MOVEMENT OF THE BULLET after it has been spawned.
+		
+		velX= Pushes the bullet away from the lotus in Horizontally by 1/10 of given value. Default = 0.
+		velY= Pushes the bullet away from the lotus in Vertically by 1/10 of given value. Default = 0.
+		velMX= Multilies the horizontal speed by given amount on each frame. Default = 1. (Use values like 1.01 and 0.98 for this)
+		velMY= Nultilies the vertical speed by given amount on each frame. Default = 1. (Use values like 1.01 and 0.98 for this)
+		
+	You make the bullets AIM AT THE PLAYER with this command.
+	
+		aim=
+			When this is 0 the lotus does not aim at player. (default)
+			When this is 1 the lotus will shoot all waves on the cycle to same location the player was.
+			When this is 2 the waves will always be shot to the current location of the player.
+		
+	you can KILL AND CONVERT the LOTUS AND THE BULLETS with these commands
+	
+		repeat= The number of times the lotus repeats its pattern before it dies. Default is -2, which means it will not die from repetition.
+		tilldeath= Time in ticks until the bullet dies. Default = nil
+		clear= Will remove bullets that move slower than given value. Set to negative to prevent this from happening. Default=0.1
+		turn= Lotus fire will turn into given NPC ID when bullet speed is less than "clear", or when "tilldeath" timer runs out.
+		
+	Most commands have SPECIAL VERSIONS of them. These are the ADDITIVE VALUES. They will increase/decrease the value by given amount FOR EACH SUCCESSIVE WAVE spawned on a cycle.	
+	Tiny values like 0.2 and -0.02 are usually recommended while using these. D stands for Delta which means the amount changed.
+	
+	You will need to have more than one WAVE on your pattern to use these. Try "waves=5" for example.
+		
+		bulletsD= Changes the number of bullets shot on each wave by given amount.
+		rateD= Changes the firing rate of the bullets between each wave.
+		speedD= Changes the speed of the bullets shot on each wave by given amount.
+		focusD= Changes the focus of the pattern shot on each wave by given amount.
+		spinD= Increases/decreases the rotation for each wave by given amount.
+		
+		delayD= Changes the time each wave waits before moving by given amount.
+		spawnxD= Changes the starting position of each wave.
+		spawnyD= Changes the starting position of each wave.
+		lineND= Changes the number of bullets on the lines on each wave
+		lineWD= Changes the distance of bullets on the lines on each wave
+		
+		velXD= Increases/decreases the horizontal speed for each wave.
+		velYD= Increases/decreases the vertical speed for each wave.
+		velMXD= Increases/decreases the horizontal speed multiplier for each wave. (Use values like -0.02 and 0.01)
+		velMYD= Increases/decreases the vertical speed multiplier for each wave. (Use values like -0.02 and 0.01)
+		
+	These values increase/decrease the previous values on each successive wave. It can be used to make the base values EXPONENTIALLY.
+	Tiny values like 0.2 and -0.02 are usually recommended while using these. D stands for Delta which means the amount changed.
+	
+	You will need to have more than one WAVE on your pattern to use these. Try "waves=5" for example.
+		
+		bulletsDD= Modify the amount of bullet increase by given amount for each wave.
+		rateDD= Modify the amount of fire rate increase by given amount for each wave.
+		speedDD= Modify the speed increase of the bullet spawned by given amount for each wave.
+		focusDD= Modify the focus increase by given amount for each wave.
+		spinDD= Modify the rotation amount increase by given amount for each wave.
+		
+		delayDD= Modify the waiting amount increase by given amount for each wave.
+		spawnxDD= Modify spawn position change by given amount for each wave.
+		spawnyDD= Modify spawn position change by given amount for each wave.
+		lineNDD= Modify the change of the number of the bullets in line by given amount for each wave.
+		lineWDD= modify the change of the distance of the bullets in line by given amount for each wave.
+		
+	--SINE OFFSETS. FOR WAVY MOTION: A is the WIDTH of the wiggle, B is the LENGTH of each wiggle, C is the POSITION you start on the wiggle. 
+		B is default to 0.5, while others are default to 0. (This is so that you only need to set A on the text file for it to work.)
+		
+		These are advanced stuff. I recommend playing around with the "spinA" value for example to see what each thing does.
+		
+		You will need to have more than one WAVE on your pattern to use these. Try "waves=5" for example.
+		
+		You can use it on following commands.
+			bulletsA= bulletsB= bulletsC=
+			spinA= spinB= spinC=
+			focusA= focusB= focusC=
+			rateA= rateB= rateC=
+			speedA= speedB= speedC=
+			spawnxA= spawnxB= spawnxC=
+			spawnyA= spawnyB= spawnyC=
+		
+	--DELTA SINE OFFSETS. You can have AD=1 at the end of the command for example to increment A by 1 for each wave. All default to 0.
+		
+		These are advanced stuff. I recommend playing around with the "spinAD" value for first example to see what each thing does. AD at the end increases the maximum distance the value can alter. BD at the end changes the amount of waves needed to get between maximum distances. CD at the end makes the next value be further in the wiggle.
+		
+		You can use it on following commands. D means additive growth. DD means exponential growth.
+		
+		You will need to have more than one WAVE on your pattern to use these. Try "waves=5" for example.
+		
+			spinAD= spinBD= spinCD=
+			focusAD= focusBD= focusCD=
+			spawnxAD= spawnxBD= spawnxCD=
+			spawnyAD= spawnyBD= spawnyCD=
+			spinADD= spinBDD= spinCDD=
+			focusADD= focusBDD= focusCDD=
+			spawnxADD= spawnxBDD= spawnxCDD=
+			spawnyADD= spawnyBDD= spawnyCDD=
+		
+	These are used to alter the LOTUS ANIMATION and fire rate.
+	
+		state=
+			if 0 Starts idle (default).
+			if 1 Starts flashing.
+			if 2 Starts just after shooting.
+		
+		timer= Set the starting time for the lotus timer. If more than the current duration, then changes to next phase instantly. Default = 0.	
+			lo1= Idle animation duration. Default 170.
+			lo2= Flashing animation duration. Default 70.
+			lo3= Shooting animation duration. Default 50.
+	
+	These are used to customize your BULLET GRAPHICS/ANIMATION. The bullets use graphics like customLotusFire1.png where the number is the value of the sprite. You can add your own bullets after the default ones, if you name them "customLotus9.png" for example.
+	You can replace the original bullet graphics with new ones of any size. Make sure they are in PNG format, and have the same amount of frames. You can add new ones too as long as they follow the same name with the other ones. Command "range=10-10" is the easiest way to get the lotus to shoot customLotus10.png graphic.
+	
+		range=1-7 Range of bullet graphics you can alternate/rotate. You can increase the range beyond 7, if you add more graphics to the folder. First number is lower limit and second is high. Default = "1-7"
+		sprite= First sprite used for the bullet. Use "2" for customLotusFire2.png example. Default is the lower range value, or 1 if that is not available.
+		
+		spriteD= Changes the sprite id for each wave by set amount.
+		spriteLD= Changes the sprite id successive bullet on line by set amount. (You need "lineN" value to see these.)
+		
+		frameN= Number of frames on the bullet. Divided from the sprite height. All bullets shot by one lotus will have the same number of frames. Default = 4.
+		frameS= Frame Speed for the bullets. Smaller is faster. All bullets shot by one lotus will have the same Frame Speed. Default=5.
+	
+	
+	To REPLACE THE VOLCANO LOTUS GRAPHIC, you will need to replace the sprites "customLotus.png". It should rezise automatically. 
+
+	To REPLACE THE Bullet GRAPHIC, you will need to replace one of the bullet graphics on the folder. This will likely be changed on the future versions.
+		
+	I hope you have fun with these codes.

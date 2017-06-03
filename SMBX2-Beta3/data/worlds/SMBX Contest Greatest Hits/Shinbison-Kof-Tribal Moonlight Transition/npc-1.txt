@@ -1,0 +1,9 @@
+playerblocktop=1
+noyoshi=0
+width=64
+height=64
+gfxwidth=64
+gfxheight=64
+frames=2
+framestyle=1
+speed=2

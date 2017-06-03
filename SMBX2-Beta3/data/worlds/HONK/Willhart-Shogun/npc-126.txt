@@ -1,0 +1,8 @@
+width=28
+height=26
+gfxwidth=32
+gfxheight=32
+gfxoffsetx=0
+gfxoffsety=2
+framestyle=1
+frames=2

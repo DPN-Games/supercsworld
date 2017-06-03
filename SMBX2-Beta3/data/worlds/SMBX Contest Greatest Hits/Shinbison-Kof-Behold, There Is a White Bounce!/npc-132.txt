@@ -1,0 +1,8 @@
+width=32
+height=48
+gfxwidth=88
+gfxheight=48
+playerblocktop=0
+grabtop=0
+jumphurt=0
+foreground=1

@@ -1,0 +1,9 @@
+width=64
+height=38
+gfxwidth=64
+gfxheight=38
+nofireball=1
+noiceball=1
+frames=4
+framestyle=0
+framespeed=4

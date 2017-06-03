@@ -1,0 +1,8 @@
+gfxoffsety=-32
+gfxwidth=32
+gfxheight=32
+width=32
+height=64
+nogravity=1
+frames=1
+framestyle=0

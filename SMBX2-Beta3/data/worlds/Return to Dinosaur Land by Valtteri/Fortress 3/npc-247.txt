@@ -1,0 +1,7 @@
+playerblocktop=0
+npcblock=0
+nofireball=1
+noiceball=1
+grabtop=0
+noyoshi=1
+jumphurt=1

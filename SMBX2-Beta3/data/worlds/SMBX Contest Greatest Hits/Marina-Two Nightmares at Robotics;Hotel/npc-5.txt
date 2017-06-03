@@ -1,0 +1,9 @@
+frames=1
+framestyle=0
+gfxheight=240
+gfxwidth=264
+height=240
+width=264
+foreground=1
+noblockcollision=1
+nogravity=1

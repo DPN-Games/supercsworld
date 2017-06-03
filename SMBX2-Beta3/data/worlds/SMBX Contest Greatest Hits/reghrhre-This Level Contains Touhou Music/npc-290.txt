@@ -1,0 +1,8 @@
+width=52
+height=38
+gfxwidth=52
+gfxheight=38
+gfxoffsety=-18
+npcblock=0
+npcblocktop=0
+noblockcollision=0

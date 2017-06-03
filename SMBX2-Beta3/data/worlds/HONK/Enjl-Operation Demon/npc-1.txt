@@ -1,0 +1,7 @@
+width=40
+height=54
+gfxwidth=40
+gfxheight=54
+speed=0
+frames=1
+framestyle=1

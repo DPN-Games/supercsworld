@@ -1,0 +1,6 @@
+width=64
+height=88
+gfxwidth=64
+gfxheight=88
+frames=1
+nogravity=1

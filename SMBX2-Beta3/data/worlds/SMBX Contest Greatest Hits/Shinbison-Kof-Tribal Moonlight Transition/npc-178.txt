@@ -1,0 +1,6 @@
+height=96
+gfxheight=96
+width=96
+gfxwidth=96
+nogravity=1
+frames=1

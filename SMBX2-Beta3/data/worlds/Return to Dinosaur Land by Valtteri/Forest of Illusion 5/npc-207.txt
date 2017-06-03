@@ -1,0 +1,9 @@
+width=32
+height=32
+gfxwidth=64
+gfxheight=64
+gfxoffsety=16
+speed=1
+frames=4
+noyoshi=1
+jumphurt=1

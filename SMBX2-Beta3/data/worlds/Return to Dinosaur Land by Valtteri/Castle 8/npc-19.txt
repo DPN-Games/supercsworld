@@ -1,0 +1,11 @@
+width=48
+height=38
+gfxwidth=48
+gfxheight=38
+playerblocktop=0
+npcblocktop=0
+speed=0
+frames=1
+framestyle=0
+score=5
+noyoshi=1

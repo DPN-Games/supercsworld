@@ -1,0 +1,15 @@
+height=132
+width=130
+gfxheight=132
+gfxwidth=130
+frames=1
+framestyle=1
+nofireball=1
+noiceball=1
+noyoshi=1
+npcblock=0
+npcblocktop=0
+nohurt=0
+playerblocktop=0
+speed=3
+jumphurt=1

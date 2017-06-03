@@ -1,0 +1,20 @@
+body {
+	background-image: url('parchment.png');
+	background-size: cover;
+	text-align: center;
+}
+p {
+	font-size: 24px;
+	font-weight: bold;
+}
+p img {
+	max-width: 100%;
+}
+.content {
+	background-color: rgba(255, 255, 255, 0.6);
+	border: 2px solid black;
+	border-radius: 20px;
+}
+.marioContainer {
+	padding: 10px;
+}

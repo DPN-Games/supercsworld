@@ -1,0 +1,10 @@
+gfxwidth=64
+gfxheight=26
+width=46
+height=26
+gfxoffsetx=0
+gfxoffsety=2
+framestyle=1
+frames=3
+npcblocktop=1
+playerblocktop=1

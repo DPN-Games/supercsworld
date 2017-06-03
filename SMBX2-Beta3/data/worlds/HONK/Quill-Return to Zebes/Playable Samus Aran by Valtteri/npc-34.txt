@@ -1,0 +1,6 @@
+width=26
+height=36
+gfxwidth=32
+gfxheight=36
+frames=2
+nospeed=1

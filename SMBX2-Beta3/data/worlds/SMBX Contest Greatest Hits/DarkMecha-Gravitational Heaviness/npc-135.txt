@@ -1,0 +1,13 @@
+width=32
+height=32
+gfxwidth=42
+gfxheight=40
+nofireball=1
+frames=3
+nohurt=1
+speed=0
+noblockcollision=0
+npcblock=1
+npcblocktop=1
+noiceball=1
+nofireball=1

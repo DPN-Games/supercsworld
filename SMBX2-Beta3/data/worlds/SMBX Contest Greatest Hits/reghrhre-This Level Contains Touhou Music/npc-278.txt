@@ -1,0 +1,4 @@
+playerblocktop=1
+npcblocktop=1
+npcblock=1
+playerblock=1

@@ -1,0 +1,15 @@
+jumphurt=1
+playerblock=0
+playerblocktop=0
+width=28
+height=32
+gfxheight=32
+gfxwidth=28
+npcblocktop=0
+npcblock=0
+grabside=0
+grabtop=0
+nohurt=0
+nogravity=1
+noblockcollision=1
+foreground=1

@@ -1,0 +1,9 @@
+height=32
+width=30
+gfxoffsetx=1
+gfxoffsety=0
+gfxheight=32
+gfxwidth=32
+playerblocktop=1
+nohurt=1
+speed=1

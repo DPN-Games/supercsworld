@@ -1,0 +1,6 @@
+width=68
+height=32
+frames=1
+framestyle=0
+speed=0
+nohurt=1

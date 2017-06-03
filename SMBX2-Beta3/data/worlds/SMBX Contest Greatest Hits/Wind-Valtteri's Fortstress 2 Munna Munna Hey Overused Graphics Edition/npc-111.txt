@@ -1,0 +1,6 @@
+width=80
+height=74
+gfxwidth=90
+gfxheight=74
+nohurt=1
+frames=1

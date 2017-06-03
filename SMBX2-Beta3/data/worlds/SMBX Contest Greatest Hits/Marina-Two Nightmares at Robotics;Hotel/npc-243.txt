@@ -1,0 +1,12 @@
+gfxheight=128
+gfxwidth=140
+height=128
+width=104
+jumphurt=1
+spinjump=1
+nofireball=1
+noiceball=1
+noyoshi=1
+frames=4
+framestyle=0
+framespeed=10

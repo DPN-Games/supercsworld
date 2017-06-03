@@ -1,0 +1,11 @@
+{
+    "game": {
+        "update-check-website": "http://wohlsoft.ru/docs/_User/HorikawaOtane/latest.json",
+		"update-error-website": "http://horikawaotane.com/smbx",
+		"update-error-message": "Could not find the latest Server Version! We'll open a page where you can redownload now!",
+        "version-1": 1,
+        "version-2": 9,
+        "version-3": 9,
+        "version-4": 3
+    }
+}

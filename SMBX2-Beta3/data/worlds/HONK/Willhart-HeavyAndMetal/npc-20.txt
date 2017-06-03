@@ -1,0 +1,9 @@
+width=28
+height=14
+gfxwidth=32
+gfxheight=22
+frames=1
+framestyle=1
+cliffturn=1
+jumphurt=1
+playerblocktop=0

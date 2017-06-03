@@ -1,0 +1,8 @@
+width=50
+height=64
+gfxwidth=50
+gfxheight=64
+frames=1
+framestyle=1
+gfxoffsetx=0
+gfxoffsety=30

@@ -1,0 +1,4 @@
+speed=16
+frames=3
+framestyle=1
+framespeed=4

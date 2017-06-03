@@ -1,0 +1,12 @@
+width=64
+gfxwidth=64
+height=52
+gfxheight=64
+jumphurt=1
+nofireball=1
+noiceball=1
+noyoshi=1
+framestyle=2
+frames=4
+speed=2
+nogravity=1

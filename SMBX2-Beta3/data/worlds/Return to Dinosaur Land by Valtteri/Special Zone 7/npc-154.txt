@@ -1,0 +1,7 @@
+nogravity=1
+playerblocktop=0
+playerblock=1
+jumphurt=1
+nohurt=1
+grabside=0
+noyoshi=1

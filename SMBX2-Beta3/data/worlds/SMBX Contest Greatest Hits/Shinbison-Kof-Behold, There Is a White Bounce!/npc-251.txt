@@ -1,0 +1,11 @@
+gfxheight=86
+gfxwidth=64
+frames=1
+framestyle=0
+nohurt=1
+grabeside=0
+grabtop=0
+playerblock=0
+playerblocktop=0
+
+

@@ -1,0 +1,7 @@
+gfxwidth=30
+gfxheight=80
+width=30
+height=80
+frames=1
+framestyle=2
+name="Horikawa Otane"

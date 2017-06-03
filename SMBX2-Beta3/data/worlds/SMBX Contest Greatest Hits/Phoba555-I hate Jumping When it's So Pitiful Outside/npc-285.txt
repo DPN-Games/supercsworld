@@ -1,0 +1,10 @@
+width=34
+height=34
+gfxwidth=36
+gfxheight=36
+frames=8
+framestyle=2
+framespeed=7
+nofireball=1
+noiceball=1
+speed=2

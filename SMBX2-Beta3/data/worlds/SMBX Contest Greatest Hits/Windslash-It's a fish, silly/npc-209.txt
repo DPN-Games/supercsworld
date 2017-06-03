@@ -1,0 +1,14 @@
+gfxwidth=32
+gfxheight=32
+foreground=1
+width=52
+height=64
+score=13
+npcblock=1
+jumphurt=1
+nohurt=1
+noblockcollision=1
+noyoshi=1
+nogravity=1
+noshell=1
+name="Boss"

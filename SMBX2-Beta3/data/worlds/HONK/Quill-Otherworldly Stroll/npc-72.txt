@@ -1,0 +1,11 @@
+noiceball=1
+framespeed=4
+width=76
+height=70
+gfxwidth=76
+gfxheight=72
+npcblock=1
+playerblock=1
+npcblocktop=1
+playerblocktop=1
+cliffturn=1

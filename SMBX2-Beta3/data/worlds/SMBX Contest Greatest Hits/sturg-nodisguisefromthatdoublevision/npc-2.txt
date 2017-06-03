@@ -1,0 +1,8 @@
+gfxwidth=128
+gfxheight=128
+width=128
+height=128
+nogravity=1
+frames=32
+framespeed=2
+framestyle=0

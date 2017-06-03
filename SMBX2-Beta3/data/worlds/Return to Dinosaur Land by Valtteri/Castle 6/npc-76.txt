@@ -1,0 +1,2 @@
+npcblock=0
+noblockcollision=1

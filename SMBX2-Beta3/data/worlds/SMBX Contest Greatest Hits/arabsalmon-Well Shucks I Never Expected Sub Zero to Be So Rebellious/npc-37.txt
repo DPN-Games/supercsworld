@@ -1,0 +1,11 @@
+gfxoffsety=16
+gfxwidth=96
+gfxheight=86
+width=52
+height=68
+npcblock=0
+jumphurt=0
+frames=2
+framespeed=4
+nohammer=1
+noshell=1

@@ -1,0 +1,8 @@
+height=28
+width=32
+gfxheight=28
+gfxwidth=32
+frames=3
+framespeed=9
+framestyle=1
+jumphurt=0

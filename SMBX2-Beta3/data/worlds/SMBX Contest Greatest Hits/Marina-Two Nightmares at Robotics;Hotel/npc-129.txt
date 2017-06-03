@@ -1,0 +1,12 @@
+playerblocktop=0
+jumphurt=0
+grabtop=0
+npcblock=0
+npcblocktop=0
+playerblock=0
+gfxheight=26
+gfxwidth=42
+height=26
+width=42
+framestyle=1
+frames=2

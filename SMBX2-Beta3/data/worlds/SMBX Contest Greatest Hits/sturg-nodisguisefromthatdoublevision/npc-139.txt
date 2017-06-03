@@ -1,0 +1,9 @@
+gfxwidth=128
+gfxheight=116
+width=128
+height=116
+playerblocktop=0
+npcblock=0
+grabside=0
+grabtop=0
+nogravity=1

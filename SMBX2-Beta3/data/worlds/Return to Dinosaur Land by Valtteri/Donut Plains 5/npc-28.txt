@@ -1,0 +1,13 @@
+width=16
+height=12
+gfxwidth=16
+gfxheight=12
+frames=1
+framestyle=1
+nohurt=1
+jumphurt=0
+npcblock=0
+npcblocktop=0
+noblockcollision=1
+noyoshi=1
+foreground=1

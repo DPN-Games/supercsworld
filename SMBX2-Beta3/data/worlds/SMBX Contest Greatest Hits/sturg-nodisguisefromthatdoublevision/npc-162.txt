@@ -1,0 +1,3 @@
+gfxoffsety=5
+frames=1
+framestyle=1

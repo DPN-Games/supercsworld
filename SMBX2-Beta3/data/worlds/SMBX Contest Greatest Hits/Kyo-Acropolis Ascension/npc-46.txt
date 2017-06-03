@@ -1,0 +1,7 @@
+height=32
+width=64
+gfxheight=64
+gfxwidth=64
+gfxoffsety=32
+frames=4
+

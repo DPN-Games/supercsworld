@@ -1,0 +1,6 @@
+width=24
+gfxwidth=24
+height=32
+gfxheight=32
+nohurt=1
+speed=1

@@ -1,0 +1,12 @@
+width=32
+height=44
+gfxwidth=32
+gfxheight=44
+grabside=0
+grabtop=0
+nohurt=0
+jumphurt=1
+noyoshi=1
+nofireball=1
+noiceball=1
+framestyle=0

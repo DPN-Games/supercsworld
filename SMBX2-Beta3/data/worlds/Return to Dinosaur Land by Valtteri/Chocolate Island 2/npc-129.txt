@@ -1,0 +1,8 @@
+framespeed=8
+frames=2
+framestyle=1
+playerblocktop=0
+npcblocktop=0
+nohurt=1
+nofireball=0
+noiceball=0

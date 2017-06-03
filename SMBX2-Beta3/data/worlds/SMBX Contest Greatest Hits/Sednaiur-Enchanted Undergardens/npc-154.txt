@@ -1,0 +1,6 @@
+noyoshi=0
+score=6
+playerblock=1
+playerblocktop=1
+grabtop=0
+grabside=0

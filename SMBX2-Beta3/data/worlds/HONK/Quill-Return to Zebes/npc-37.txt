@@ -1,0 +1,8 @@
+height=52
+width=48
+gfxheight=52
+gfxwidth=48
+frames=4
+nofireball=0
+noiceball=0
+noblockcollision=1

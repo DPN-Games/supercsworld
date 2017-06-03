@@ -1,0 +1,392 @@
+Editor 0.3.1.11-patch-1
+- Added draggable splitter in the events toolbox
+- Added ability to define fixed size for exportable section piece
+- Fixed crash, caused by very small pictures (1 px height)
+- Added preview counter of coins in the blocks
+- Added direction arrows for a warp points of pipe type
+- Fixed in-bounds of section detection used by flood-fill algorithm
+- Added ability to override grid size with custom
+- Added ability to delete all elements of specified ID
+
+Editor 0.3.1.11
+- Added Polish translation of the editor
+- Optimized performance and memory usage
+- Fixed some inabilities to show custom graphics in the item selection dialogs
+- Flood fill will never fill out of section by default (to allow filling out of section, need to uncheck a special flag in the "Edit" menu)
+- Fixed empty category entry width appears on some groups in blocks and BGO lists
+- Added ability to show default only elements in the tile-sets editor box
+- Added "Top-Right" and "Right-Bottom" section sides for camera position reset
+- Test are finally working
+- Fixed frame-sequence based animator for the blocks
+- Fixed junk element entries on damaged or absence of the image file
+- Added support of the automatically running of the configure utilities in the config packs. Now configure utilities are working in JavaScript instead of executables!
+- Fixed log level management
+- Better validating of configuration package INI-files in the editor (to avoid future crashes because damaged config pack)
+- Experimental plugins system
+- Fixed menubar confusion while loading, and fixed confusion between settings and quit menu actions on Mac OS X
+- Fixed stability of LunaTester to don't freeze/crash PGE Editor if crashes/failures on side of SMBX Engine
+- Settings are will be saved into separated "settings" directory to have convenient way to update portable PGE package
+- Fixed config reloading crash on Windows
+- Implemented full support for custom config files for all elements: block-*.ini, background-*.ini, tile-*.ini, scene-*.ini, path-*.ini, level-*.ini
+- Removed a useles auto-script generation thing
+- Added auto-crearing/opening for lunadll.lua/lunaworld.lua/lunaoverworld.lua files and configurable PGE-Specific level/world script names
+- Fully implemented support of split configurations for level backgrounds, blocks, BGOs, NPCs, terrain tiles, sceneries, paths and level tiles
+- Fixed dead lock and wired question dialog on attempt to start LunaTester while SMBX Editor opened in parallel and when file in PGE Editor isn't saved
+- Fixed crash on attempt toggle layer in the warp entry while placing mode of block, BGO or NPC in process
+
+Editor 0.3.1.10
+- Fixed custom folder confusion caused with dot-contained file names
+- Level list dialog now looks for level files in sub directories (is possible to collect levels into sub-directories to don't flood episode root folder)
+- Better testing through SMBX on Windows version: if SMBX Editor is not started, SMBX Test will be launched from scratch!
+- Added support of SMBX65-38A file formats
+- Fixed miss up of order priority applying for BGO-190
+- Added circle fill
+- Added grid showing
+- Added separated support of portal and instant warps: instant warp will do same as in SMBX, portal warp will teleport character with keeping of kinetic energy
+- NPC-Containers now supports saving of extra special properties for contents: LVLX and SMBX65-38A only, SMBX64 LVL supports extra special for one NPC container only
+- Better and stable inter-processing with engine based on stdin/stdout!
+- Added warning about alpha-testing of PGE Engine for newbies.
+- Resolved trouble with window focuses
+- Added ability to set absolute values of sizable block size from block properties tool box
+- Finally implemented true BGO's order priority table which results right order of the BGOs in comparison with SMBX Editor
+
+Editor 0.3.1.9
+- Fixed bug with removed warp entrance point and after placing it again
+- Fixed a detection of libraries paths (such as "platforms") while dynamically built PGE Apps are locating in the folder with non-ascii path
+- Added support of config pack's folder binding GIFs2PNG GUI (non-exist masks are will be retrieved from current config pack!)
+- Use Breeze theme on KDE, XFCE, OS X and on Windows 10
+- Fixed bug with multi-selection item dialog where impossible to add NPC's into custom counter
+- Added ability to copy any parameters/metrics of any placed element
+- Added a good protection which avoids accidental running of multiple copies of engine for a testing
+
+Editor 0.3.1.8
+- Fixed bug with non-initialized NPC.txt fields on a new file creation
+- Added question boxes on attempt to remove layer from list
+- [WIP] Testing settings (there are will don't take effect on actual testing inside engine yet!)
+- Fixed grid offset bug
+
+Editor 0.3.1.7
+- Small update of File Library
+- Support for "health" tag inside npc-*.txt custom configs
+- Added support of emulated FM Synth MIDI playback based on ADLMIDI. Also added support of loopStart/loopEnd tags in MIDI files
+- Fixed serious bug causes crash on attempt to place something after removing with enabled collisions.
+- Added experimental support of background2-*.txt custom configs (currently works with Editor only, engine still don't work with it) which allows to reconfigure animation, image filenames or settings for custom backgrounds. Note: unlike npc-*.txt, background2-*.txt uses INI-file syntax and requires a header "[background2-x]" at top of file. Instead of X put a number of background.
+- Fixed bug with locked event entry after un-deletion
+- Added "Open folder of file" and "Open custom folder of file" to quickly open custom folder of current level or world map
+
+Editor 0.3.1.6
+- Added support of game musics formats
+- Updated application icon (New 32x32 and 48x48 versions made by Orakel)
+
+Editor 0.3.1.5
+- Fixed the small bug with missed up refreshing of item counters after flood-fill operation
+
+Editor 0.3.1.4
+- New Design of classic events tool box
+- Fixed the dialog lockers
+- Middle mouse button with selected alone item now can copy settings of item too!
+- Added support to exit from hand-drag scroll mode with right mouse button
+- Added support of redefinition of some initial item properties
+
+Editor 0.3.1.3
+- Fixed a crash in relation to closing the music-box while fetching is in process
+- Fixed a bug in relation to de-synced frames on exported images
+- With the updated SDL2_mixer_ext, it is now possible to have looped OGG files (vorbis tags LOOPSTART and LOOPEND with PCM-sample position are required (you can insert this via Audacity))
+
+Editor 0.3.1.2
+- Fixed a small issue with un-reseted NPC parameters on taking new NPC's to place
+
+Editor 0.3.1.1
+- Added "tip of day" to bring attention to some useful features in the Editor.
+
+Editor 0.3.1
+- Added tool which provides clean-up of garbage NPC's caused by SMBX bug (any climbable NPC's such as vines are flooding SMBX)
+- Added config pack version notifier (if your config pack is outdated, you will be notified)
+- Better designed development console box
+- Fixed a bug which made crashing possible if the F5 keys were pressed too often.
+- Performance when editing big levels and world maps, has been improved.
+- In flood-fill mode, BGOs are now colliding with other BGO's.
+
+Editor 0.3.0.2
+- Added "Transform all Item-ID's in current section" menu-item
+- Added ability to transform music boxes.
+- Added multi-selection for item selection dialog for "add" action in the custom counters editor.
+
+Editor 0.3.0
+- Fixed group collision random crash
+- Fixed 'too large weight' crash
+- Added update checking
+- Better history manager
+- Added support of user specific settings and logs
+- Interprocess communication system is fixed for Linux and Windows systems.
+- Fixed freezing on reading some NPC.txts with mistakes
+- Added ability to save progress on file reload
+- Added more soft parsing of NPC.txt files. Instead of outright rejection, you will now be warned about incorrect values while being able to load the file.
+- Added smarter file reloading
+- Added basic communication with LunaDLL in order to run tests of the current level in the opened SMBX Editor. This feature can only work on the Windows platform at the current time. (LunaDLL with LUA v0.5.3-beta and higher is required for SMBX)
+- Added "force-portable" settings to keep using the application directory instead of ~/.PGE_Project folder if the editor was installed via the installer.
+- Added crash autosave which will provide a chance to keep most of your progress in the event of a crash.
+- Added history manager limit to prevent memory overflow.
+- Fixed a lots of bugs in the layers and events tool-boxes.
+- Fixed blinking of toolboxes on startup.
+- Added SoX audio converter GUI to provide quick and easy audio files fixing toolset.
+- Added message box event creator for blocks context menu.
+- Fixed bug of events toolbox when changing language.
+- Added soft refusing of file saving into LVL/WLD on excite of the SMBX64 limits
+- Added working file association for Linux
+- Fixed crash on attempt to undo while resizing mode in process and when resizing was applied
+- Added "Transform all Item-ID into" context menu feature which works like "swap blocks" in the SMBX.
+- Fixed crash on wrong log path, added log rotation on each start-up of editor like made in the engine.
+- If configuration package is failed, config status window will pop-up automatically
+- Added testing of world maps!
+- Added ability to install config pack into %UserProfile%\.PGE_Project, ~/.PGE_Project or ~/Library/Application Support/PGE Project folder
+- Added "delete tile-set" button to provide built-in removing of junk tile-sets
+- Fixed bug with music boxed placing undo history action
+- Loading speed has increased
+Minor updates after release (updated version since 11 may 2015 build date):
+- Fixed music-box history
+- Fixed history of z-values
+- Copy-pasting bugs has been fixed
+- Added support of custom music on world map (WLDX files only!)
+
+Editor 0.2.2
+- Added "Ask every startup" flag into config manager
+- Fixed window focus on switch into placing mode
+- Fixed 'Trigger event' and 'Set moving layer' comboboxes on switch into placing mode
+- Fixed crash in protector for 'out of range' inside NPC animator
+- Improved stars counter tool: now it counts accurate and everywhere
+- Fixed "Add to new layer" not updated layer lists
+- Added crash handlers which will display reason of editor crash
+- Added basic inter-processing features
+- Added smart custom data importing (when you drag&drop files or folders into the editing level file, they will be imported and level will restarted)
+- Added flood filling tool
+- Added able to use line tool for NPC's.
+- Added auto-incrementing of special value (which a much useful for placing of, for example, fire-bars)
+- Added "Don't show properties box" feature for placing mode
+- Added position bookmarks. You can store current point into bookmark which give able to return back later
+- Added internal tools
+- All graphics issues prevented with implementing of alternate unmasking algorithm
+- Easier way to fix lazily-made graphics added into [ Tools / Custom data / Fix wrong masks ]
+- Added unused custom data removal tool into [ Tools / Custom data / Clear unused data ]
+- Added Section modification features: Clone, Delete, Rotate left/right, Flip horizontal/vertical
+- Added more edit actions: align selected, flip horizontal/vertical, rotate left/right
+- Added basic scripts generation feature
+- Organized structure of source code which making code more understandable, flexible and faster
+- Added layer movement speed calculator which will help you calculate speed in blocks per seconds.
+- More accurate SMBX file formats support: Now PGE can parse SMBX files of ANY version (from 0 to 64)
+- Added saving of SMBX LVL and WLD formats with selecting of file format version (useful to edit old episodes which made by old SMBX'es with saving of compatibility with them)
+- Added reading of SAV files which show game save statistics in the editor.
+- Better re-sizer boxes, now they are movable and more flexible, added context menu to cut size by any side.
+- Added custom counters which giving able to count any specific item ID's.
+- Fixed placement of NPC's to the slopes
+- Added animated splash screens system into the editor
+- Fixed layers and event slots reset bug in the item properties dialog
+- Fixed default sizes of Sub-windows in sub-window mode
+- Stars counter no more count friendly NPC's
+- Added ability to copy and paste level and world data into external clipboard with able to paste/copy into any text file!
+
+Editor 0.2.1.1
+- Fixed zoom icons customization
+- Fixed tiny mouse events of locked items bug
+- Fixed mouse wheel artifacts while placing mode is enabled
+- Added "Show zone range data" which will show X, Y, Width and Height of physical environment zone
+- Fixed multi-line messages of NPC and events parsing error for SMBX64 level file format (found in Talkhaus's levels)
+- Fixed crash on range erasing on world map
+
+Editor 0.2.1
+- Added support for multi-selection by holding the shift key
+- Added new PGE-only file formats LVLX and WLDX, which support more features and have fewer limitations than the SMBX formats, such as the maximum number of items
+- Improved overall performance
+- Smarter grid snapping of the selected items group
+- Clicking a layer from the list will select  which layer new items will be placed on
+- Added SDL library to give better music and sound playback
+- Fixed grid alignment after duplicating/pasting
+- Added semi-transparent paths view for world map
+- Added displaying of the items statistics to the debugger box
+- Fixed config directory path on Mac OS X
+- Fixed bug with item boxes updating when you switch between other applications
+- Added SMBX64 standard validator which prevents you from saving a file that would cause SMBX to crash, such as exceeding SMBX's maximum level size, etc.
+- Added ability to export images of only a selected portion of a level
+- Added support for a Themes system. You can customize the UI and GFX of editor on your own!
+
+Editor 0.2.0
+- Added support for World Maps
+- Added customizable item tile-sets
+- Added "name" field into NPC customizer for defining the NPC's name
+- Fixed zombie bug: application process will correctly end work when closed
+- Invisible frames of some items are now visible!
+- Square fill tool button will appear on the toolbar when you switch the placing mode
+- Apply/Cancel buttons of resizing process available on the toolbar
+- Fixed initial map positions on open/create files
+- Added settings for the item toolbox tabs: you can display them horizontally or vertically
+- Improved LVL parser: ordering/layering format <10 will automatically set BGO sorting priority for BGO 65 and boss flag for NPC-15, 39 and 86.
+- Added overwrite mode: all overlapping items will be removed when placing a new item in the same location
+- Improved Square Fill tool: you will see yellow rectangles, which show where the new items will be placed
+- Fixed "add layer" dialog. Now if you try to define an already existing layer, you will be asked to input a different layer name
+- Added point selection dialog. You can select a point from a world map directly to the warp on the level.
+- Added dialogs for a console tools like a GIFs2PNG and LazyFixTool
+- Mouse control for level editing workspace was improved. Fixed a lot of bugs and fixed context menus on Linux systems.
+- Custom graphics will display even if they are not in a "Custom" category
+- Item animation has been improved
+- The drawing algorithm for sizable blocks has been improved: Sizable blocks will be displayed correctly in any size.
+- Added support for animation sequences, which allow more flexible animations for NPC's
+- Better scrolling by keyboard and by mouse wheel. (Added new hot-keys)
+- Added zoom support by mouse-wheel and ALT key.
+- Added PNG2GIFs converter which creates masked GIF images from a PNG image with transparency
+- Added Italian translation
+- Design of warp points and physical environment zones are improved, also magenta-colored bounding box has been changed to Crimson
+- Added debugger box
+- Background-selecting list now has thumbnails for previewing!
+
+Editor 0.1.1
+- Animation rendering has been improved and optimized
+- Added animation start/stop toolbar button
+- New selection dialog for items
+- Fixed a lot of memory leaks
+- New design for the message box
+- Item ID is now displayed in the Properties toolbox.
+- Added item search box: you can find items by their ID along with layer members or other options
+- Added tab view mode, you can switch between sub-window/tab mode in application settings
+- Added support of second special value for fixing a bug with incorrect LVL file parsing (Herb with included magic potion)
+- Fixed loss of decimal part of values (loss of precision) for layer movement and auto-scroll speed
+- Fixed offset bug for NPC special options
+- Title of the sub-window will have the level title instead of the file name
+- Added a fullscreen option, recommended for tablets!
+- Added an option to hide warps/doors and water zone boxes (physical environment zones) on exported images
+- Added definition for default behavior flags of blocks (slippery, invisible) and NPC's (friendly, no-move, boss)
+- Added support for resizing the physical environment zones (water, quicksand)
+- The default position for the toolboxes will be on the left side of the screen instead of the center (Windows) or left-top corner (Linux)
+
+Editor 0.1.0.1
+- Fixed bug with custom music paths after saving a new file
+- Optimized the level loading process, the editor can now open huge levels much faster
+
+Editor 0.1.0
+- Added events control support
+- Added sound tester
+- Image renders are improved and fully support taking alpha channel from masks (before it could only use internal PNG alpha, or 1-bit mask files)
+- Fixed default main window size and position
+- Fixed Level item toolbox category list translation
+- Fixed bug with empty category lists after reloading configs
+- Added support for BMP Files, "Ghosties" will only appear if the image is really broken
+- Player start points can be moved by mouse in selection mode
+- History manager can store any level data and any settings changes
+- New icons for section switch buttons
+- Optimized background and music selector
+- Language switcher is improved
+- Fixed the crash when pressing "Delete" in the layer list without selecting a layer
+- Fixed bug with door flags "Level Exit" and "Level Entrance" on already placed points
+- If a translation equal to the system language does not exist, the English translation will be used
+- The editor now remembers the last used folder/file path
+- Merging of layers, on renaming a layer to a equivalent name of another layer
+- Configuration status window. You can see the status of all configuration items and look for errors in the load process
+- Fixed bug with resetting events in properties window
+- Added search filter for NPC-Selection dialog
+- Added search filter for level Item Box
+- Fixed NPC's special option wrong values on placing items
+- Fixed grammar and spelling in labels
+- Optimized toolbox generation
+- Added Notification about incorrect custom graphics files
+- Fixed the frame calculation for NPCs
+- In the music files list, the open current file will be selected
+- In the music list displaying music files from sub-directories
+- Fixed auto-align bug: Grid applying only on moved items
+- Fixed random NPC's direction generator
+- Added star count in LVL-file save function
+- Fixed bug with incorrect background on created levels (before saving them)
+
+Editor 0.0.8.1
+- Fixed bug with door points on opening of old LVL files (file format < 8)
+- Fixed disabled labels on NPC-Editor
+- Fixed bug with empty containers
+- Added Spanish translation
+
+Editor 0.0.8
+- Added support for rendering and controlling NPC's
+- It is now possible to save level files!
+- It is now possible to create new level files and new NPC configuration files!
+- Added NPC Previewer for NPC.txt editor
+- License updated to GNU GPLv3
+- Optimized level loading process
+- Added support to control doors
+- History manager: you can undo/redo changes on level map [Not completely finished]
+- Addded Clipboard support: you can now copy and paste tiles, NPCs, etc.
+- Added Item Properties window, and with them possible to FULL CONTROL of ALL level items
+- Added BGO hack for placing BGOs in the foreground
+- Added Item box and support for placing new items on map
+- Added Layer box: You can create/rename/delete layers, you can move layers in list by clicking and dragging, and you can change visibility of layers
+- Added more protectors: you can violate limits with itemID and if itemID > global array item number, you will see dummy image instead of crashing
+- Rewrote Background render algorithm
+- Unused Sections will be initialized when they are selected
+- It is now possible to resize sections
+- It is now possible to resize sizable blocks
+- You can change players' start point positions
+- Added "Selection only" tool, you can select item groups without moving them
+- Fixed eraser tool
+- Water/Quicksand zones, sizable blocks placing in "Draw-Square" style
+- "Square Fill" tool: you can draw square and it will be filled by selected block or BGO (Warning, collisions ignoring!)
+- Fixes in configs: almost all blocks, BGOs and NPCs are sorted
+- Full control of door entries
+- "Goto entrance" and "Goto exit" - makes it possible to quickly find the other side of a door, even in other sections
+- in NPC-Editor displaying all default values for current NPC ID, if option not used
+- Added application settings window: you can set autoplay music/animation/collisions or set log level and log file
+- Animation will be reseted on exported image
+- Optimized item map controls
+- Application can be translated in other languages
+- Now we have finished these translations: English, Russian, German. Anyone can feel free to make more translations!
+
+Editor 0.0.7
+- Added door points array-ID text
+- Added player's points on level map
+- Added support for move objects on level map, change properties by blocks with context menu
+- Added blocks animation
+- Optimized level data loading
+- Added locks for objects by type
+- Added support to change all properties for section, but without resizing and creation new section
+- Fixed bug with silent music CPU overloading.
+- Removed red borders on exported images (bug with current section border)
+- Added objects collisions (for example, for protection for create blocks on blocks)
+- Added support for editing tools: hand scrolling, objects selection, rubber for delete objects
+- Fixed Z-Values in configuration
+- Added "Reload file" option, for re-Open current file, if its data changed outside editor (for example, NPC.txt configs, added/removed/replaced user's sprites)
+This option help with speed-up file saving. As we know, SMBX try to reload all data of current level file after saving. It is makes saving process slow. Real saving from data array into target file is almost instant operation.
+- Full support for big backgrounds
+- Added support for correctly aborting of the level loading process
+- Support for hot-keys for fast select necessary tools
+- And....Ghost, what temporary replacing all NPCs named as "Jackson the Ghost" by my brother.
+April 30, 2014, small updates in Editor 0.0.7 alpha, build updated and placed on same links
+- Added background objects animation
+- Added animation switch, for allow to off animation, if on map too many objects.
+- Added background context menu with "remove" option
+- Level data loading process optimized, speed-up
+
+Editor 0.0.6
+- Added blocks support
+- Added Music player, you can enable section settings view, and press "play" for start music playing.
+- Added custom music selection dialog
+- Data loading process are improved
+- New logo and icon
+- Added water view (if Quicksand bit enabled, displayed in Yellow color)
+- Added door points displaying
+
+Editor 0.0.5
+- Added "Export to image"
+- Added Level Properties read support (Level Title, if it set in LVL file)
+
+Editor 0.0.4
+- Added experimental support for backgrounds with support for user's images in world directory (all backgrounds will be tiled)
+- Added support for invisible blocks (showing is semi-transparent)
+- Added support for seeing the included NPC in block
+
+Editor 0.0.3
+- added full NPC config support (Read/Write)
+- added BGO renter
+- added splash dialog
+- saving all positions of toolbars/toolboxes, etc.
+- add section selecting (last position saving and restoring on current section change)
+
+Editor 0.0.2
+- Added support for render level objects in graphical Window
+
+Editor 0.0.1
+- First test version, can only check parsing of LVL files

@@ -1,0 +1,11 @@
+speed=0
+frames=1
+framestyle=0
+height=192
+width=192
+gfxheight=192
+gfxwidth=192
+nohurt=1
+npcblock=0
+nogravity=1
+noblockcollision=1
