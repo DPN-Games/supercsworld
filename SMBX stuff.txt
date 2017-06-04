@@ -17,3 +17,9 @@ Emplemon
 Numberer1
 
 188 levels
+
+-= How to format your level names=-
+Regular levels- 1-1.lvl, 1-2.lvl
+Toad House- 1-t.lvl
+Warps- warp1.lvl, warp2.lvl
+Castle and Mini- 1-m.lvl, 1-c.lvl
