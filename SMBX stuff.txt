@@ -1,13 +1,15 @@
-World1- Digi (Grass)
-World2- Pakoo (Desert)
-World3- Nova [maybe AWK] (Ocean)
-World4- Digi (Giant)
-World5- Pakoo (Forest)
-World6- Nova [maybe AWK] (Snow)
-World7- Nova [maybe AWK] (Clouds/Mountains)
-World8- Pakoo (Hell)
-World9- Digi (Star/Special)
-MinusWorld- Digi/Pakoo (Forgotten)
+World1- Digi (Grass) levels- 13
+World2- Pakoo (Desert) levels- 19
+World3- Nova [maybe AWK] (Ocean) levels- 18
+World4- Digi (Giant) levels- 16
+World5- Pakoo (Forest) levels- 17
+World6- Nova [maybe AWK] (Snow) levels- 14
+World7- Nova [maybe AWK] (Clouds/Mountains) levels- 21
+World8- Pakoo (Hell) levels- 22
+World9- Digi (Star/Special) levels- 9
+MinusWorld- Digi/Pakoo (Forgotten) levels- 28
+ 
+Warps- 10 (Star Palace is a seperate level)
 
 Koopalings-
 
