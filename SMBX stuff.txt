@@ -7,8 +7,8 @@ World6- AWK (Snow) levels- 14
 World7- AWK (Clouds/Mountains) levels- 21
 World8- Pakoo (Hell) levels- 22
 World9- Digi (Star/Special) levels- 9
-MinusWorld- Digi/Pakoo (Forgotten) levels- 14
-World420- Digi/Pakoo (Meme) levels - 14
+MinusWorld- Digi/Pakoo (Forgotten) levels- 7/7
+World420- Digi/Pakoo (Meme) levels - 7/7
  
 Warps- 10 (Star Palace is a seperate level)
 
