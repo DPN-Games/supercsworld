@@ -37,3 +37,4 @@ Digi and Pakoo - Graphics
 Arceus - Music (so we don't get copyright strikes)
 AWK - Story?
 Pakoo, maybe Digi - Scripting (coding)
+WithEyesAFlame - Testing
