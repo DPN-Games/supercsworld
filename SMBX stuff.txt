@@ -1,6 +1,6 @@
 World1- Digi (Grass) levels- 13
 World2- Pakoo (Desert) levels- 19
-World3- AWK (Ocean) levels- 18
+World3- Iruk (Ocean) levels- 18
 World4- Digi (Giant) levels- 16
 World5- Pakoo (Forest) levels- 17
 World6- AWK (Snow) levels- 14
