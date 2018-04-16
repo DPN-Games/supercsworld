@@ -1,4 +1,8 @@
 loadedIntroSong
+/trials27.ogg
+loadedIntroSong
 /trials9.ogg
+lunaActivatedCheatData
+
 lunaActivatedCheatData
 
