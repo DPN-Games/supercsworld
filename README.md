@@ -7,14 +7,17 @@ Project Leader: Pakoo
 Vice Leader: DigiDuncan
 
 Block Graphics: DigiDuncan. Pakoo
-Character Graphics:ItsNovaHere
+Character Graphics: ItsNovaHere
 SFX: Arceus3251
 Music: ItsNovaHere
 Installer: DigiDuncan
 Animated Intro: DigiDuncan
 Animated Outro: ItsNovaHere
+Maps: Pakoo
+Trailer: Pakoo
 
 *Worlds*
+--Map 1--
 Intro World :DigiDuncan (13 levels)
 Desert World :Pakoo (19 levels)
 Beach World :ItsNovaHere (18 levels)
@@ -23,12 +26,12 @@ Snow World :ItsNovaHere (14 levels)
 Cloud World :AWK/ItsNovaHere (21 levels)
 Giant World: DigiDuncan (16 levels)
 Really Hard World: Pakoo (22 levels)
+
+--Map 2--
 Corrupted World: DigiDuncan/Pakoo (07/07 levels)
 Meme World: DigiDuncan/Pakoo (07/07 levels)
-Warps- 10 (Star Palace is a seperate level)
 
-
-Map: Pakoo
+10 Warps (Star Palace is a separate level.)
 
 *Koopalings*:
 Dathings1 (Bowser)
@@ -41,11 +44,12 @@ Crash Matilda
 Caldera
 SpartaYoshi
 OrpheusFTW
+AwfulFafle
 
-AwfulFafle (MinusWorld)
+Vinny Vinesauce (Corrupted World)
+Joel Vinesauce (Meme World)
 
-
-Beta Test: WithEyesAFlame
+Beta Tester: WithEyesAFlame
 
 188 levels
 
@@ -54,8 +58,6 @@ Regular levels- 1-1.lvl, 1-2.lvl
 Toad House- 1-t.lvl
 Warps- warp1.lvl, warp2.lvl
 Castle and Mini- 1-m.lvl, 1-c.lvl
-
-
 
 *Level Ideas*
 Use a secret door to skip most of final l
