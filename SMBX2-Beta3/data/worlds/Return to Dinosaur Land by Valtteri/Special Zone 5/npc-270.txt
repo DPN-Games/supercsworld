@@ -1,4 +1,0 @@
-width=64
-height=84
-gfxwidth=64
-gfxheight=84

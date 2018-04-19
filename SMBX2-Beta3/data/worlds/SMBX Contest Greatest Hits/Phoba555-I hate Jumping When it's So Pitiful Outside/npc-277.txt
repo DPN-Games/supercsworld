@@ -1,5 +1,0 @@
-width=28
-height=54
-frames=4
-nogravity=1
-framespeed=4

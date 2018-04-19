@@ -1,8 +1,0 @@
-gfxoffsety=50
-width=32
-height=40
-gfxwidth=74
-gfxheight=138
-forground=1
-frames=5
-framespeed=5

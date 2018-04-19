@@ -1,6 +1,0 @@
-framespeed=32
-width=50
-height=44
-gfxwidth=50
-gfxheight=44
-jumphurt=1

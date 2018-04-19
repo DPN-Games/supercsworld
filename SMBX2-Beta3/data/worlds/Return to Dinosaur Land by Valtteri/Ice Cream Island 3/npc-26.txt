@@ -1,3 +1,0 @@
-noyoshi=1
-npcblocktop=1
-npcblock=1

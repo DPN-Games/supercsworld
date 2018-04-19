@@ -1,8 +1,0 @@
-width=44
-gfxwidth=44
-height=32
-gfxheight=32
-framespeed=16
-framestyle=2
-frames=4
-cliffturn=1

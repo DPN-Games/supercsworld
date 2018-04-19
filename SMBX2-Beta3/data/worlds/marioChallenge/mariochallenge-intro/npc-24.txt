@@ -1,9 +1,0 @@
-height=32
-width=32
-frames=1
-framestyle=0
-speed=0
-nohurt=1
-gfxoffsetx=0
-gfxoffsety=0
-nogravity=1

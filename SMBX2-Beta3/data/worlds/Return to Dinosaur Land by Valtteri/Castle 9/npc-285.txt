@@ -1,8 +1,0 @@
-width=160
-height=64
-gfxwidth=160
-gfxheight=64
-frames=15
-framespeed=6
-speed=0
-gfxoffsety=0

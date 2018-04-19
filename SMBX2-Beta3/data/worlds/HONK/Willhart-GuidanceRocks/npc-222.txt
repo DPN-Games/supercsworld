@@ -1,9 +1,0 @@
-speed=0
-frames=1
-framestyle=0
-height=64
-width=64
-gfxheight=64
-gfxwidth=64
-nohurt=1
-npcblock=0

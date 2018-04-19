@@ -1,6 +1,0 @@
-gfxwidth=100
-gfxheight=108
-width=96
-height=104
-gfxoffsety=-2
-foreground=1

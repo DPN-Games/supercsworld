@@ -1,7 +1,0 @@
-width=32
-height=124
-gfxwidth=68
-gfxheight=124
-frames=7
-framestyle=1
-framespeed=10

@@ -1,6 +1,0 @@
-width=80
-height=80
-gfxwidth=80
-gfxheight=80
-nohurt=1
-frames=1

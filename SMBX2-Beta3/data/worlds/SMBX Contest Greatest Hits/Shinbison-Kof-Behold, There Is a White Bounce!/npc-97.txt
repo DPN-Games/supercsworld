@@ -1,4 +1,0 @@
-width=64
-height=64
-frames=4
-framespeed=30

@@ -1,6 +1,0 @@
-width=200
-gfxwidth=387
-height=280
-gfxheight=300
-frames=2
-framespeed=10

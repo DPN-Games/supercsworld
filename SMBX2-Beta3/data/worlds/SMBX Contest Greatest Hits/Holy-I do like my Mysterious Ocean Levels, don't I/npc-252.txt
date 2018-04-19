@@ -1,7 +1,0 @@
-width=231
-height=263
-frames=1
-nohurt=1
-foreground=1
-npcblock=0
-npcblocktop=0

@@ -1,2 +1,0 @@
-Width=50
-Height=66

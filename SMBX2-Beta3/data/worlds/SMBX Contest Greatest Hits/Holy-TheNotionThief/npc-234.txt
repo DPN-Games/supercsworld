@@ -1,5 +1,0 @@
-width=288
-height=160
-nogravity=1
-foreground=1
-frames=1

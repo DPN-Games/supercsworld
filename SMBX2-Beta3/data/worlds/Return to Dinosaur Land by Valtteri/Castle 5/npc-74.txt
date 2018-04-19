@@ -1,4 +1,0 @@
-width=64
-height=128
-hgxwidth=64
-gfxheight=128

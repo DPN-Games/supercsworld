@@ -1,9 +1,0 @@
-height=69
-width=82
-gfxheight=69
-gfxwidth=82
-frames=3
-grabside=1
-grabtop=1
-noyoshi=1
-nohurt=1

@@ -1,6 +1,0 @@
-gfxheight=60
-gfxwidth=57
-width=44
-framestyle=1
-frames=2
-foreground=1

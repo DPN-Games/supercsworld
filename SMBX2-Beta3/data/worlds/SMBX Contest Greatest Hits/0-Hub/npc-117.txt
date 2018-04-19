@@ -1,8 +1,0 @@
-gfxoffsetx=0
-gfxoffsety=0
-gfxwidth=53
-gfxheight=54
-width=53
-height=54
-frames=1
-framestyle=0

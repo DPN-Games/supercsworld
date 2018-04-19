@@ -1,6 +1,0 @@
-speed=0
-noblockcollision=1
-gfxwidth=64
-gfxheight=64
-width=64
-height=64

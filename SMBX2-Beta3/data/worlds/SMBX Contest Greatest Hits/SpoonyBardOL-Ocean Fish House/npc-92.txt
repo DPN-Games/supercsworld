@@ -1,3 +1,0 @@
-gfxwidth=58
-gfxheight=52
-noblockcollision=1

@@ -1,4 +1,0 @@
-height=52
-gfxheight=52
-frames=2
-framestyle=1

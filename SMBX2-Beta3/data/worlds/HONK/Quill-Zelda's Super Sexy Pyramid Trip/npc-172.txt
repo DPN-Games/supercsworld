@@ -1,7 +1,0 @@
-gfxwidth=48
-gfxheight=48
-width=32
-height=40
-frames=1
-framestyle=2
-name="Willhart"

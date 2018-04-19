@@ -1,8 +1,0 @@
-width=68
-height=88
-gfxwidth=68
-gfxheight=88
-frames=1
-framestyle=0
-speed=0
-gfxoffsety=0

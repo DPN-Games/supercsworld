@@ -1,6 +1,0 @@
-gfxheight=44
-gfxwidth=58
-width=58
-noblockcollision=1
-frames=2
-framespeed=14

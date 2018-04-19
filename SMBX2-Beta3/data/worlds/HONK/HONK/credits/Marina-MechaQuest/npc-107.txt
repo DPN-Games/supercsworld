@@ -1,7 +1,0 @@
-gfxwidth=28
-gfxheight=40
-width=28
-height=40
-speed=0
-nogravity=1
-framestyle=0

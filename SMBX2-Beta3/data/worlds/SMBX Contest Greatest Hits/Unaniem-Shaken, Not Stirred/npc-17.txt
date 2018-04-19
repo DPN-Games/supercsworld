@@ -1,4 +1,0 @@
-speed=2
-frames=2
-framestyle=1
-framespeed=4

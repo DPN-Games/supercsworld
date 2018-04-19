@@ -1,5 +1,0 @@
-gfxwidth=232
-gfxheight=242
-frames=4
-gfxoffsety=100
-gfxoffsetx=10

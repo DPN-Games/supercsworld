@@ -1,5 +1,0 @@
-width=68
-height=42
-gfxwidth=68
-gfxheight=52
-gfxoffsety=10

@@ -1,8 +1,0 @@
-width=64
-height=50
-gfxwidth=64
-gfxheight=50
-nofireball=1
-noiceball=1
-frames=1
-framestyle=0

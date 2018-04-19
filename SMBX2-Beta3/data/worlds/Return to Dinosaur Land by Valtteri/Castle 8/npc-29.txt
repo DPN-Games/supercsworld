@@ -1,6 +1,0 @@
-width=48
-height=50
-gfxwidth=48
-gfxheight=50
-speed=0
-noyoshi=1

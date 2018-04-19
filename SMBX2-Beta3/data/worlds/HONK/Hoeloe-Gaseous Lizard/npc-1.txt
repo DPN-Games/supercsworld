@@ -1,4 +1,0 @@
-cliffturn=1
-frames=2
-framespeed=8
-framestyle=1

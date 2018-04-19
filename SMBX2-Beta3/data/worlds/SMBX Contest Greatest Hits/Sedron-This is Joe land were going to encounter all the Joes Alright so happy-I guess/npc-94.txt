@@ -1,4 +1,0 @@
-framestyle=0
-width=97
-height=127
-frames=1

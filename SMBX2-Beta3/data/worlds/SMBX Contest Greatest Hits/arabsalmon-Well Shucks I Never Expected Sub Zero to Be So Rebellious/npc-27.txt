@@ -1,6 +1,0 @@
-npcblock=0
-nohurt=1
-noblockcollision=1
-noyoshi=1
-nofireball=1
-noiceball=1

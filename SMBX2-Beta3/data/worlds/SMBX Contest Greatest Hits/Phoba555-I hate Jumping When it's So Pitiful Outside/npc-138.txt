@@ -1,4 +1,0 @@
-height=16
-width=24
-frames=1
-foreground=1

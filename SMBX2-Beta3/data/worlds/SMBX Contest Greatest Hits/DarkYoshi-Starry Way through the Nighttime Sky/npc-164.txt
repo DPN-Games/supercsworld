@@ -1,7 +1,0 @@
-width=78
-height=92
-gfxwidth=78
-gfxheight=92
-speed=2
-playerblocktop=0
-npcblocktop=0

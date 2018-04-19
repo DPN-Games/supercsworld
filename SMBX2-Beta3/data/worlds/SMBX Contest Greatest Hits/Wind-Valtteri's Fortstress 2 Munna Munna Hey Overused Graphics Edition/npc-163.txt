@@ -1,5 +1,0 @@
-width=64
-height=128
-gfxwidth=92
-gfxheight=128
-frames=1

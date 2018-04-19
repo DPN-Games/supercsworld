@@ -1,9 +1,0 @@
-width=32
-height=128
-gfxwidth=32
-gfxheight=128
-framestyle=1
-frames=4
-npcblock=1
-npcblocktop=1
-playerblock=1

@@ -1,9 +1,0 @@
-width=26
-height=26
-gfxwidth=32
-gfxheight=64
-frames=11
-framestyle=0
-framespeed=4
-gfxoffsetx=0
-gfxoffsety=0

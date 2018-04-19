@@ -1,8 +1,0 @@
-grabside=0
-grabtop=0
-frames=1
-framestyle=0
-width=106
-height=184
-gfxwidth=106
-gfxheight=184

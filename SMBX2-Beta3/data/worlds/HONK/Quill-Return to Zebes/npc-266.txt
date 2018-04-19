@@ -1,9 +1,0 @@
-gfxoffsetx=0
-gfxoffsety=0
-gfxwidth=16
-gfxheight=16
-width=16
-height=16
-noblockcollision=0
-frames=1
-framestyle=1

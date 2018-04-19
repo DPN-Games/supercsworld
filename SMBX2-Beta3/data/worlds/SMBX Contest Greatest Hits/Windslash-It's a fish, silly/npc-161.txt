@@ -1,3 +1,0 @@
-width=56
-height=56
-name="HP 1"

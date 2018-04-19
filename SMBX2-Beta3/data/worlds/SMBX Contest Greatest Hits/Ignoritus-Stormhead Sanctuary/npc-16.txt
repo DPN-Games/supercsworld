@@ -1,4 +1,0 @@
-width=1000
-height=1000
-gfxwidth=1000
-gfxheight=1000

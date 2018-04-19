@@ -1,7 +1,0 @@
-framespeed=6
-frames=7
-framestyle=1
-width=66
-height=126
-gfxwidth=66
-gfxheight=126

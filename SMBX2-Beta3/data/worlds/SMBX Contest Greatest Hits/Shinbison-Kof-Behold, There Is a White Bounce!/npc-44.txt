@@ -1,5 +1,0 @@
-width=100
-height=110
-gfxheight=118
-gfxwidth=108
-speed=2

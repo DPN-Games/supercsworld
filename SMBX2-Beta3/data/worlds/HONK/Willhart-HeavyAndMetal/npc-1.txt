@@ -1,2 +1,0 @@
-cliffturn=1
-speed=0.8

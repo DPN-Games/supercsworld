@@ -1,3 +1,0 @@
-gfxheight=16
-height=16
-frames=4

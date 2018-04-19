@@ -1,6 +1,0 @@
-gfxheight=64
-gfxwidth=32
-height=64
-width=32
-playerblocktop=1
-npcblocktop=1

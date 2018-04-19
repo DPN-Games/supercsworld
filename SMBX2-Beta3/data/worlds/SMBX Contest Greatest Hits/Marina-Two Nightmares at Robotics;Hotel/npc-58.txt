@@ -1,8 +1,0 @@
-gfxheight=88
-gfxwidth=96
-height=88
-width=96
-frames=1
-framestyle=1
-npcblock=0
-npcblocktop=0

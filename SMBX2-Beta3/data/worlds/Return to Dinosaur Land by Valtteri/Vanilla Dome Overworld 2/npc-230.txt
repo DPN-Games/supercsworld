@@ -1,8 +1,0 @@
-width=80
-height=32
-gfxwidth=80
-gfxheight=32
-nohurt=1
-nofireball=1
-playerblocktop=1
-npcblock=0

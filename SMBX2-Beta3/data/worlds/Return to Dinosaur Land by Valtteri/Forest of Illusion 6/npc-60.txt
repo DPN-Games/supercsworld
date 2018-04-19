@@ -1,7 +1,0 @@
-width=96
-height=32
-gfxwidth=140
-gfxheight=52
-frames=2
-framestyle=0
-npcblocktop=0

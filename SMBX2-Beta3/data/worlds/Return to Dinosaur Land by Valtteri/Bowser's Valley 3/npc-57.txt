@@ -1,6 +1,0 @@
-nohurt=0
-jumphurt=1
-npcblock=0
-npcblocktop=0
-playerblock=0
-playerblocktop=0

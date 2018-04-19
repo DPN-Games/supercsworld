@@ -1,5 +1,0 @@
-width=322
-height=158
-gfxwidth=322
-gfxheight=158
-nogravity=1

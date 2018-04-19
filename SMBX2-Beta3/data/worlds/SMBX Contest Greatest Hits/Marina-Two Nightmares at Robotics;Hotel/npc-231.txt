@@ -1,7 +1,0 @@
-gfxheight=48
-gfxwidth=64
-height=48
-width=16
-jumphurt=0
-foreground=1
-noblockcollision=1

@@ -1,5 +1,0 @@
-width=98
-height=72
-gfxwidth=98
-gfxheight=72
-frames=1

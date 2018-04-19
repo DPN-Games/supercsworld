@@ -1,5 +1,0 @@
-nofireball=1
-noiceball=1
-jumphurt=1
-noyoshi=1
-noblockcollision=1

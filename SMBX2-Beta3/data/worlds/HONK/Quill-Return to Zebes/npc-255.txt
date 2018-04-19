@@ -1,4 +1,0 @@
-gfxheight=126
-height=126
-jumphurt=0
-frames=1

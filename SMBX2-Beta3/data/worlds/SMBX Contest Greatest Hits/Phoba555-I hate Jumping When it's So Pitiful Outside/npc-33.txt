@@ -1,3 +1,0 @@
-frames=6
-width=32
-framespeed=20

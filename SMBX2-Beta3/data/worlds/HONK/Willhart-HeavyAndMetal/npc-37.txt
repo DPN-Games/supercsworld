@@ -1,8 +1,0 @@
-height=22
-width=60
-gfxoffsety=6
-gfxoffsetx=0
-gfxheight=322
-gfxwidth=64
-playerblocktop=1
-nofireball=1

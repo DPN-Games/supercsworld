@@ -1,9 +1,0 @@
-width=62
-gfxwidth=62
-height=80
-gfxheight=80
-framestyle=2
-frames=4
-nofireball=1
-noiceball=1
-noyoshi=1
