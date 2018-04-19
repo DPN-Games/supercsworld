@@ -1,0 +1,17 @@
+Warning: (:0, ): libpng warning: IDAT: Extra compressed data
+Warning: (:0, ): libpng warning: iCCP: known incorrect sRGB profile
+Warning: (:0, ): libpng warning: IDAT: Extra compressed data
+Warning: Error of the script : 
+Uncaught exception at line 10:
+SyntaxError: Unexpected token `?'
+Warning: Error while loading main.js in test-plugin-with-error, skipping...
+Critical: LoadConfig -> ERROR LOADING C:/Users/Xander/Documents/GitHub/supercsworld/SMBX2-Beta3/data/worlds/Super CS Worlds/-1/block-5.txt: [block] section is missed!
+Critical: *.INI Configs not loaded
+Critical: *.INI Configs not loaded
+Critical: Error! *.INI Configs for music not loaded
+Critical: Error! *.INI Configs for music not loaded
+Critical: Error! *.INI Configs for music not loaded
+Critical: Error! *.INI Configs for music not loaded
+Critical: Error! *.INI Configs for music not loaded
+Critical: Error! *.INI Configs for music not loaded
+Warning: (:0, ): QProcess: Destroyed while process ("C:\\Users\\Xander\\Documents\\GitHub\\supercsworld\\SMBX2-Beta3\\data\\PGE\\pge_engine.exe") is still running.

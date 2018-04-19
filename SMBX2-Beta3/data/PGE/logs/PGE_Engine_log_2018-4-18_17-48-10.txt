@@ -1,0 +1,80 @@
+Debug: <Application started>
+Debug: Initializing translator in the path: C:/Users/Xander/Documents/GitHub/supercsworld/SMBX2-Beta3/data/PGE/languages
+Debug: Locale detected: en
+Debug: Argument: [--debug]
+Debug: Argument: [--config="C:/Users/Xander/Documents/GitHub/supercsworld/SMBX2-Beta3/data/PGE/configs/SMBX-2.0-Integration/"]
+Debug: Argument: [--interprocessing]
+Debug (:0, ): IntProc constructing...
+Debug (:0, ): Construct interprocess pipe
+Debug (:0, ): IntProc started!
+Debug: Argument: [--num-players=1]
+Debug: Argument: [--p1c=1]
+Debug: Argument: [--p1s=1]
+Debug: Argument: [--p2c=1]
+Debug: Argument: [--p2s=1]
+Debug: Argument: [--debug-print=no]
+Debug: Initialization of SDL...
+Debug: Initialization of Audio subsystem...
+Debug: Init main window...
+Debug: GL3PROBE: Create hidden window
+Debug: GL3PROBE: Create context
+Debug: GL3PROBE: take extensions list
+Debug: GL3PROBE: check GL_EXT_bgra
+Debug: GL3PROBE: check GL_ARB_texture_non_power_of_two
+Debug: GL3PROBE: check glEnable(GL_BLEND)
+Debug: GL3PROBE: check glEnable(GL_TEXTURE_2D)
+Debug: GL3PROBE: check glEnableClientState
+Debug: GL3PROBE: check glEnableClientState
+Debug: GL3PROBE: check glEnableClientState
+Debug: GL3PROBE: check glGenTextures
+Debug: GL3PROBE: check glBindTexture
+Debug: GL3PROBE: check glTexImage2D
+Debug: GL3PROBE: check glBindTexture
+Debug: GL3PROBE: check glBindTexture
+Debug: GL3PROBE: check glTexParameteri
+Debug: GL3PROBE: check glTexParameteri
+Debug: GL3PROBE: check glTexParameteri
+Debug: GL3PROBE: check glTexParameteri
+Debug: GL3PROBE: check glBlendFunc
+Debug: GL3PROBE: check glColorPointer
+Debug: GL3PROBE: check glVertexPointer
+Debug: GL3PROBE: check glTexCoordPointer
+Debug: GL3PROBE: check glDrawElements
+Debug: GL3PROBE: check glBindTexture
+Debug: GL3PROBE: check glDeleteTextures
+Debug: GL3PROBE: All tests passed
+Debug: OpenGL 3.1 detected!
+Debug: Init OpenGL settings...
+Debug: Create OpenGL context...
+Debug: Toggle vsync...
+Debug: V-Sync supported: 1
+Debug: Init joystics...
+Debug: Clear screen...
+Debug: Init basic font manager...
+Debug: Showing window...
+Warning: (:0, ): libpng warning: iCCP: known incorrect sRGB profile
+Debug: Opening of the configuration package...
+Debug: Initalization of basic properties...
+Debug (:0, ): Loading playable characters...
+Debug: Configuration package successfully loaded!
+Debug: Build SFX index cache...
+Debug: Init full font manager...
+Debug: ICP: Requesting editor for a file....
+Debug: ICP: Waiting reply....
+Debug (:0, ): IN: >> "SEND_LVLX: C:/Users/Xander/Doc\n"
+Debug (:0, ): append LVLX data
+Debug (:0, ): LVLX accepting is done
+Debug (:0, ): do Parse LVLX: >> "PARSE_LVLX"
+Debug (:0, ): Level data parsed, Valid: true
+Debug: ICP: Done, starting a game....
+Debug (:0, ): BG Type 0
+Debug (:0, ): clear level textures
+Debug (:0, ): Destroy cameras
+Debug (:0, ): Destroy players
+Debug (:0, ): Destroy blocks
+Debug (:0, ): Destroy BGO
+Debug (:0, ): Destroy NPC
+Debug (:0, ): Destroy Warps
+Debug (:0, ): Destroy Physical Environment zones
+Debug (:0, ): Destroy sections
+Debug: <Application closed>
