@@ -7,6 +7,7 @@ Project Leader: Pakoo
 Vice Leader: DigiDuncan
 
 Block Graphics: DigiDuncan. Pakoo
+Block Normal Map Merging: ItsNovaHere
 Character Graphics: ItsNovaHere
 SFX: Arceus3251
 Music: ItsNovaHere
