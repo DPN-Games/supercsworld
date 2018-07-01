@@ -52,7 +52,7 @@ Joel Vinesauce (Meme World)
 
 Beta Tester: WithEyesAFlame
 
-188 levels
+88 levels
 
 -= How to format your level names=-
 Regular levels- 1-1.lvl, 1-2.lvl
